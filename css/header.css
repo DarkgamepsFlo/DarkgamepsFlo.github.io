@@ -1,0 +1,11 @@
+header {
+    background-color: gray;
+}
+
+img[id="github"] {
+    width: 100px;
+}
+
+img[id="linkedin"] {
+    width: 100px;
+}
