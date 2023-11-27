@@ -1,0 +1,22 @@
+.custom-button {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 5px; /* Coins arrondis */
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles pour le texte par-dessus le bouton */
+.button-text {
+    position: relative;
+    z-index: 2; /* Placez le texte au-dessus du bouton */
+}
+
+/* Effet au survol du bouton */
+.custom-button:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
