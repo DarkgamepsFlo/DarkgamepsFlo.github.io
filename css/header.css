@@ -1,13 +1,9 @@
-body {
-    margin: 0px;
-}
-
 div[id="img_header"] {
     padding: 10px;
 }
 
 header {
-    background-color: gray;
+    background-color: white;
 }
 
 img[id="github"] {

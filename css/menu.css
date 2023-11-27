@@ -1,11 +1,30 @@
+/* Page entière */
+body {
+    margin: 0px;
+    font-family: 'Lilita One';
+    font-size: 22px;
+    background-color: #DDDDDD;
+}
+
+/* Titre de la page */
+.div_title {
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+    justify-content: center; 
+}
+
+/* Ensemble des boutons de la page */
 .custom-button {
     display: inline-block;
     position: relative;
-    padding: 10px 20px;
+    padding: 8% 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     background-color: #3498db; /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */
     text-decoration: none;
-    border-radius: 5px; /* Coins arrondis */
+    border-radius: 40px; /* Coins arrondis */
     overflow: hidden;
     transition: background-color 0.3s ease;
 }
@@ -19,4 +38,63 @@
 /* Effet au survol du bouton */
 .custom-button:hover {
     background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
+
+
+
+div[id="quatre_img"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px auto;
+}
+
+/* Styles pour chaque div */
+div[id="une_img"] {
+    box-sizing: border-box;
+    width: 20%; /* Chaque div occupe 25% de la largeur du conteneur */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px auto;
+    text-align: center;
+}
+
+div[id="une_img"] img {
+    width: 100%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
+    max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la div */
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+    margin: 0 auto; /* Centrer l'image horizontalement dans la div */
+}
+
+div[id="color_img"] img {
+    background-color: white;
+    border-radius: 100%;
+}
+
+div[id="une_img"] a {
+    margin-top: 10px;
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+div[id="une_img"] a span {
+    font-weight: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+img[id="ma_tete"] {
+    width: 200px;
+}
+
+img[id="project"] {
+    width: 200px;
+}
+
+img[id="interest"] {
+    width: 200px;
+}
+
+img[id="skills"] {
+    width: 200px;
 }

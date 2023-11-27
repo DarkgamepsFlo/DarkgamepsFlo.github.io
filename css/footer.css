@@ -1,19 +1,7 @@
-body {
-    margin: 0px;
-}
-
 div[id="img_footer"] {
     padding: 10px;
 }
 
-header {
-    background-color: gray;
-}
-
-img[id="github"] {
-    width: 100px;
-}
-
-img[id="linkedin"] {
-    width: 100px;
+footer {
+    background-color: white;
 }
