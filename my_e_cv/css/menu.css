@@ -6,12 +6,17 @@ body {
     background-color: #DDDDDD;
 }
 
+h1 {
+    font-size: 5vw;
+}
+
 /* Titre de la page */
 .div_title {
-    font-size: 2em;
+    
     margin: 20px 0;
     text-align: center;
     justify-content: center; 
+    box-sizing: border-box;
 }
 
 /* Ensemble des boutons de la page */
