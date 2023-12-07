@@ -7,12 +7,11 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 /* Titre de la page */
 .div_title {
-    
     margin: 20px 0;
     text-align: center;
     justify-content: center; 
@@ -23,13 +22,13 @@ h1 {
 .custom-button {
     display: inline-block;
     position: relative;
-    padding: 8% 15%;
+    padding: 8% 6%;
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: #3498db; /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */
     text-decoration: none;
-    border-radius: 40px; /* Coins arrondis */
+    border-radius: 50px; /* Coins arrondis */
     overflow: hidden;
     transition: background-color 0.3s ease;
 }
@@ -38,6 +37,7 @@ h1 {
 .button-text {
     position: relative;
     z-index: 2; /* Placez le texte au-dessus du bouton */
+    font-size: 2vw;
 }
 
 /* Effet au survol du bouton */
@@ -46,20 +46,17 @@ h1 {
 }
 
 
-
 div[id="quatre_img"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    margin: 20px auto;
+    margin: 20px 40px;
 }
 
 /* Styles pour chaque div */
 div[id="une_img"] {
-    box-sizing: border-box;
-    width: 20%; /* Chaque div occupe 25% de la largeur du conteneur */
+    width: 18%; /* Chaque div occupe 25% de la largeur du conteneur */
     padding: 10px;
-    border: 1px solid #ddd;
     margin: 5px auto;
     text-align: center;
 }
@@ -70,11 +67,6 @@ div[id="une_img"] img {
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
     margin: 0 auto; /* Centrer l'image horizontalement dans la div */
-}
-
-div[id="color_img"] img {
-    background-color: white;
-    border-radius: 100%;
 }
 
 div[id="une_img"] a {

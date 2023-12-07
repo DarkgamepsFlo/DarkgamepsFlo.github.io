@@ -4,4 +4,33 @@ div[id="img_footer"] {
 
 footer {
     background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Ensemble des boutons de la page */
+.custom-button-footer {
+    display: inline-block;
+    position: relative;
+    padding: 0.5% 2%;
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 50px; /* Coins arrondis */
+}
+
+/* Styles pour le texte par-dessus le bouton */
+.button-text-footer {
+    position: relative;
+    z-index: 2; /* Placez le texte au-dessus du bouton */
+    font-size: 2vw;
+}
+
+/* Effet au survol du bouton */
+.custom-button-footer:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
 }
