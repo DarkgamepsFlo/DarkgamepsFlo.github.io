@@ -25,44 +25,53 @@
                     <img src="./img/linkedin.png" id="linkedin" alt="Logo de linkedin">
                 </a>
             </div>
-            
+            <div id="une_img_header">
+                <img onclick="changeLanguage()" id="langImage" src="./img/fr_flag.png" alt="Drapeau français">
+            </div>
         </div>
     </header>
     <!-- HTML représentant le corp principal de la fonction -->
     <body>
         <div class="div_title">
-            <h1>Bienvenue sur mon portfolio</h1>
+            <!-- Ajoute des classes aux éléments que tu souhaites traduire -->
+            <h1 id="welcome_menu" class="translate">Bienvenue sur mon portfolio</h1>
         </div>
         <div id="quatre_img">
             <div id="une_img">
-                <img src="./img/github.png" id="ma_tete" alt="Logo de Github">
+                <div id="color_img">
+                    <img src="./img/maGueule.png" id="ma_tete" alt="Me voici">
+                </div>
                 <a href="./profil/index.html" class="custom-button">
-                    <span class="button-text">Qui suis-je ?</span>
+                    <span id="whoami" class="translate" class="button-text">Qui suis-je ?</span>
                 </a>
             </div>
             <div id="une_img">
-                <img src="./img/github.png" id="project" alt="Logo de Github">
-                <a href="#" class="custom-button">
-                    <span class="button-text">Mes projets</span>
+                <img src="./img/Solaire.png" id="project" alt="Mes projets">
+                <a href="./project/index.html" class="custom-button">
+                    <span id="projects" class="translate" class="button-text">Mes projets</span>
                 </a>
             </div>
             <div id="une_img">
-                <img src="./img/github.png" id="interest" alt="Logo de Github">
-                    <a href="#" class="custom-button">
-                        <span class="button-text">Mes intérêts</span>
+                <img src="./img/github.png" id="interest" alt="Mes intêrets">
+                    <a href="./interest/index.html" class="custom-button">
+                        <span id="interests" class="translate" class="button-text">Mes intérêts</span>
                     </a>
             </div>
             <div id="une_img">
-                <img src="./img/github.png" id="skills" alt="Logo de Github">
-                <a href="#" class="custom-button">
-                    <span class="button-text">Mes expériences</span>
+                <img src="./img/Opalebd.png" id="skills" alt="Mes expériences">
+                <a href="./experiences/index.html" class="custom-button">
+                    <span id="experiences" class="translate" class="button-text">Mes expériences</span>
                 </a>
             </div>
         </div>
+
+        <!-- Ajoute le lien vers le fichier JavaScript -->
+        <script src="./service/traduction.js"></script>
+
     </body>
     <!-- HTML représentant le footer du site -->
     <footer>
-        <a href="#" class="custom-button-footer">
+        <a href="./contacter/index.html" class="custom-button-footer">
             <span class="button-text-footer">Me contacter</span>
         </a>
     </footer>

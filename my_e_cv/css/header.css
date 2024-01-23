@@ -1,6 +1,10 @@
 header {
     background-color: white;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 img[id="github"] {
@@ -11,6 +15,10 @@ img[id="linkedin"] {
     width: 90px;
 }
 
+img[id="langImage"] {
+    width: 90px;
+}
+
 div[id="img_header"] {
     display: flex;
     flex-wrap: wrap;
@@ -18,11 +26,11 @@ div[id="img_header"] {
 
 /* Styles pour chaque div */
 div[id="une_img_header"] {
-    width: 10%; /* Chaque div occupe 25% de la largeur du conteneur */
+    width: 8%; /* Chaque div occupe 25% de la largeur du conteneur */
     margin: 5px;
 }
 
-div[id="une_img_header"] a img {
+div[id="une_img_header"] a img, img {
     max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la div */
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
@@ -32,4 +40,8 @@ div[id="une_img_header"] a img {
 div[id="une_img_header"] a {
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+body{
+    padding-top: 100px
 }

@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    margin-bottom: 100px;
+    background-color: #DDDDDD;
+    font-family: 'Lilita One';
+}
+
+h1 {
+    font-size: 22px;
+    font-size: 4vw;
+}
+
+/* Titre de la page */
+.div_title {
+    margin: 20px 0;
+    text-align: center;
+    justify-content: center; 
+    box-sizing: border-box;
+}
+
+/* Ensemble des boutons de la page */
+.custom-button {
+    display: inline-block;
+    position: relative;
+    padding: 8% 6%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #3498db; /* Couleur de fond du bouton */
+    text-decoration: none;
+    border-radius: 50px; /* Coins arrondis */
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles pour le texte par-dessus le bouton */
+.button-text {
+    position: relative;
+    z-index: 2; /* Placez le texte au-dessus du bouton */
+    font-size: 2vw;
+}
+
+/* Effet au survol du bouton */
+.custom-button:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
+
+div[id="color_img"] img {
+    background-color: white;
+    border-radius: 100%;
+}
+
+div[id="quatre_img"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px 40px;
+}
+
+/* Styles pour chaque div */
+div[id="une_img"] {
+    width: 18%; /* Chaque div occupe 25% de la largeur du conteneur */
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+div[id="une_img"] img {
+    width: 100%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
+    max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la div */
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+    margin: 0 auto; /* Centrer l'image horizontalement dans la div */
+}
+
+div[id="une_img"] a {
+    margin-top: 10px;
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+div[id="une_img"] a span {
+    font-weight: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+img[id="ma_tete"] {
+    width: 200px;
+}
+
+
+
+#infoSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#listContainer {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+#textContainer {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 56%;
+    margin-right: 60px;
+}
+
+#downloadContainer {
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+#downloadButton {
+    color: #3498db;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

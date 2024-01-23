@@ -6,16 +6,11 @@ body {
     background-color: #DDDDDD;
 }
 
-h1 {
-    font-size: 4vw;
-}
-
 /* Titre de la page */
 .div_title {
-    margin: 20px 0;
     text-align: center;
-    justify-content: center; 
     box-sizing: border-box;
+    margin-left: 10px;
 }
 
 /* Ensemble des boutons de la page */
@@ -33,33 +28,21 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-/* Styles pour le texte par-dessus le bouton */
-.button-text {
-    position: relative;
-    z-index: 2; /* Placez le texte au-dessus du bouton */
-    font-size: 2vw;
-}
+
 
 /* Effet au survol du bouton */
 .custom-button:hover {
     background-color: #2980b9; /* Nouvelle couleur de fond au survol */
 }
 
-
-div[id="quatre_img"] {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    margin: 20px 40px;
+div[id="color_img"] img {
+    background-color: white;
+    border-radius: 100%;
 }
 
-/* Styles pour chaque div */
-div[id="une_img"] {
-    width: 18%; /* Chaque div occupe 25% de la largeur du conteneur */
-    padding: 10px;
-    margin: 5px auto;
-    text-align: center;
-}
+
+
+
 
 div[id="une_img"] img {
     width: 100%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
@@ -94,4 +77,73 @@ img[id="interest"] {
 
 img[id="skills"] {
     width: 200px;
+}
+
+
+/* Éléments qui vont changer avec le responsive */
+
+
+
+h1 {
+    font-size: 4vw;
+}
+
+/* Styles pour le texte par-dessus le bouton */
+.button-text {
+    position: relative;
+    z-index: 2; /* Placez le texte au-dessus du bouton */
+    font-size: 2vw;
+}
+
+/* Styles pour chaque div */
+div[id="une_img"] {
+    width: 18%; /* Chaque div occupe 25% de la largeur du conteneur */
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+div[id="quatre_img"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px 40px;
+    margin-bottom: 60px;
+}
+
+
+
+/* Styles pour les écrans de petite taille (460px) et plus petits */
+@media screen and (max-width: 460px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    /* Styles pour le texte par-dessus le bouton */
+    .button-text {
+        position: relative;
+        z-index: 2; /* Placez le texte au-dessus du bouton */
+        font-size: 6vw;
+    }
+
+    /* Styles pour chaque div */
+    div[id="une_img"] {
+        width: 70%; /* Chaque div occupe 25% de la largeur du conteneur */
+        padding: 10px;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    div[id="quatre_img"] {
+        display: flex;
+        flex-direction: column; /* Met les éléments du body l'un en dessous de l'autre */
+        align-items: center; /* Centre les éléments du body */
+    }
 }

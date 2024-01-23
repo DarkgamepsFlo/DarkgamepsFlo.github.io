@@ -6,11 +6,11 @@
         <!-- import de l'ensemble du css -->
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/profil.css">
         <!-- import de la police d'écriture -->
         <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
 
-        <title>Bienvenue !</title>
+        <title>Mon profil</title>
     </head>
     <!-- HTML représentant le header du site -->
     <header>
@@ -25,18 +25,56 @@
                     <img src="../img/linkedin.png" id="linkedin" alt="Logo de linkedin">
                 </a>
             </div>
-            
+            <div id="une_img_header">
+                <img onclick="changeLanguage()" id="langImage" src="../img/fr_flag.png" alt="Drapeau français">
+            </div>
         </div>
     </header>
     <!-- HTML représentant le corp principal de la fonction -->
     <body>
         <div class="div_title">
-            <h1>Bienvenue sur mon profil</h1>
+            <h1 id="welcome_profil" class="translate">Mon profil</h1>
         </div>
+       
+        <!-- Div sous l'image pour la liste d'éléments -->
+        <div id="infoSection">
+            <div id="une_img">
+                <div id="color_img">
+                    <img src="../img/maGueule.png" id="ma_tete" alt="Me voici">
+                </div>
+            </div>
+                
+            <div id="textContainer">
+                <h2>Qui suis-je ?</h2>
+                <p>Bonjour ou bonsoir, je suis Florian Ogès, 20 ans. Je suis actuellement étudiant en troisième année de BUT Informatique à l'IUT de l'ULCO.</p>
+            </div>
+        </div>
+
+        <div id="infoSection">    
+            <!-- Div à droite de l'image pour le texte -->
+            <div id="listContainer">
+                <h2>Mes Compétences</h2>
+                <ul>
+                    <li>Les langages web de base : HTML/CSS/Javascript</li>
+                    <li>Les framework web : VueJS/NodeJS/Twig/Codigniter</li>
+                    <li>Les langages de dev: Python/JAVA/C#/C++</li>
+                </ul>
+            </div>
+
+            <div id="downloadContainer">
+                <h2>Vous pouvez consulter mon CV ici</h2>
+                <button id="downloadButton">Télécharger mon CV</button>
+            </div>
+        </div>   
+        
+        <!-- Référence au fichier JavaScript externe -->
+        <script src="../service/telechargerCV.js"></script>
+        <script src="../service/traduction.js"></script>
+        
     </body>
     <!-- HTML représentant le footer du site -->
     <footer>
-        <a href="#" class="custom-button-footer">
+        <a href="../contacter/index.html" class="custom-button-footer">
             <span class="button-text-footer">Me contacter</span>
         </a>
     </footer>

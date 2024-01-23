@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/interest.css"> <!-- Ajoutez un fichier CSS spécifique pour la page interets -->
+        <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+        <title>interets</title>
+    </head>
+    <header>
+        <div id="img_header">
+            <div id="une_img_header">
+                <a href="https://github.com/DarkgamepsFlo">
+                    <img src="../img/github.png" id="github" alt="Logo de Github">
+                </a>
+            </div>
+            <div id="une_img_header">
+                <a href="https://www.linkedin.com/in/florian-og%C3%A8s-a41a9a240">
+                    <img src="../img/linkedin.png" id="linkedin" alt="Logo de linkedin">
+                </a>
+            </div>
+            <div id="une_img_header">
+                <img onclick="changeLanguage()" id="langImage" src="../img/fr_flag.png" alt="Drapeau français">
+            </div>
+        </div>
+    </header>
+    <body>
+        <!-- Contenu de la page interets -->
+        <div class="interet-container">
+            <div class="div_title">
+                <h1>Voici l'ensemble des interets</h1>
+            </div>
+            <div class="interet">
+                <h2>Titre du interet 1</h2>
+                <div id="infoSection">
+                    <div class="image_normal">
+                        <img src="../img/Solaire.png" alt="Image interet 1">
+                    </div>
+                    <div class="texte_normal">
+                        <p>Description du interet 1</p>
+                    </div>
+                </div>
+                <div class="boutons">
+                    <button>Bouton 1</button>
+                    <button>Bouton 2</button>
+                </div>
+            </div>
+
+            <div class="interet reverse">
+                <!-- La classe 'reverse' sera utilisée pour inverser la direction de flex pour cette div -->
+                <h2>Titre du interet 2</h2>
+                <div id="infoSection">
+                    <div class="texte_reverse">
+                        <p>Description du interet 2</p>
+                    </div>
+                    <div class="image_reverse">
+                        <img src="../img/Solaire.png" alt="Image interet 2">
+                    </div>
+                </div>
+                <div class="boutons">
+                    <button>Bouton 1</button>
+                    <button>Bouton 2</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <a href="../contacter/index.html" class="custom-button-footer">
+            <span class="button-text-footer">Me contacter</span>
+        </a>
+    </footer>
+</html>

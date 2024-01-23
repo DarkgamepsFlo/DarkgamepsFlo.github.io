@@ -1,16 +1,12 @@
-div[id="img_footer"] {
-    padding: 10px;
-}
-
 footer {
-    background-color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: white;
+    z-index: 2;
 }
-
 
 /* Ensemble des boutons de la page */
 .custom-button-footer {
