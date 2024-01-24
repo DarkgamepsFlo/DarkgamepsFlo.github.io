@@ -3,7 +3,6 @@ body {
     margin-bottom: 100px;
     background-color: #DDDDDD;
     font-family: 'Lilita One';
-    overflow: hidden;
 }
 
 h1 {
@@ -13,7 +12,7 @@ h1 {
 
 /* Titre de la page */
 .div_title {
-    margin: 20px 0;
+    margin: 20px;
     text-align: center;
     justify-content: center; 
     box-sizing: border-box;
@@ -112,16 +111,7 @@ img[id="ma_tete"] {
     margin-right: 60px;
 }
 
-#downloadContainer {
-    background-color: #3498db;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 30%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10%;
-}
+
 
 #downloadButton {
     color: #3498db;
@@ -129,6 +119,19 @@ img[id="ma_tete"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 460px) {
+    #downloadContainer {
+        background-color: #3498db;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10%;
+    }
 }
 
 
@@ -144,9 +147,24 @@ img[id="ma_tete"] {
         margin-top: 20px;
     }
 
-    
     #textContainer {
-        width: 100%;
-        margin: 2%;
+        width: 80%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    #listContainer {
+        width: 80%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    #downloadContainer {
+        margin-right: 30%;
+        margin-left: 30%;
+        background-color: #3498db;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
     }
 }
