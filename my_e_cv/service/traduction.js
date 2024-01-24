@@ -43,7 +43,6 @@ function updateContent() {
             document.getElementById("interests").innerText = "My interest";
         if(document.getElementById("experiences"))
             document.getElementById("experiences").innerText = "My experiences";
-        
         if(document.getElementById("welcome_profil"))
             document.getElementById("welcome_profil").innerText = "My profile";
     }
@@ -55,22 +54,7 @@ function updateImage() {
     var imgElement = document.getElementById("langImage");
 
     if (imgElement) {
-        // Récupère l'URL de la page actuelle
-        var currentURL = window.location.pathname;
-
-        // Utilise une expression régulière pour vérifier si le chemin se termine par '/my_e_cv/index.html'
-        var isInMyECVFolder = /\/my_e_cv\/index\.html$/.test(currentURL);
-
-        if (isInMyECVFolder) {
-            // Vous êtes dans le dossier 'my_e_cv' ou la page 'index.html' dans un sous-dossier
-            if (currentLanguage === "fr") {
-                imgElement.src = "./img/fr_flag.png";
-                imgElement.alt = "Drapeau français";
-            } else {
-                imgElement.src = "./img/en_flag.png";
-                imgElement.alt = "English flag";
-            }
-        } else {
+        
             // Vous n'êtes pas dans le dossier 'my_e_cv' ou la page 'index.html'
             if (currentLanguage === "fr") {
                 imgElement.src = "../img/fr_flag.png";
@@ -79,9 +63,9 @@ function updateImage() {
                 imgElement.src = "../img/en_flag.png";
                 imgElement.alt = "English flag";
             }
-        }
     }
 }
+
 
 // Appelle la fonction pour mettre à jour le contenu lors du chargement de la page
 window.onload = function() {
