@@ -81,3 +81,10 @@ h2 {
 .texte_reverse p {
     color: #555;
 }
+
+
+
+/* Styles pour les écrans plus petits que 460 pixels */
+@media screen and (max-width: 460px) {
+
+}

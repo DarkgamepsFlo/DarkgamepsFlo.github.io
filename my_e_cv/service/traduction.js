@@ -43,6 +43,7 @@ function updateContent() {
             document.getElementById("interests").innerText = "My interest";
         if(document.getElementById("experiences"))
             document.getElementById("experiences").innerText = "My experiences";
+        
         if(document.getElementById("welcome_profil"))
             document.getElementById("welcome_profil").innerText = "My profile";
     }
@@ -57,10 +58,10 @@ function updateImage() {
         
             // Vous n'êtes pas dans le dossier 'my_e_cv' ou la page 'index.html'
             if (currentLanguage === "fr") {
-                imgElement.src = "../img/fr_flag.png";
+                imgElement.src = "../img/en_flag.png";
                 imgElement.alt = "Drapeau français";
             } else {
-                imgElement.src = "../img/en_flag.png";
+                imgElement.src = "../img/fr_flag.png";
                 imgElement.alt = "English flag";
             }
     }

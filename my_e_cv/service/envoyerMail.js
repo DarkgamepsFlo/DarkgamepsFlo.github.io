@@ -13,9 +13,35 @@ document.getElementById('sendButton').addEventListener('click', function() {
         content: content,
     })
     .then(function(response) {
+        // Afficher une SweetAlert
+        Swal.fire({
+            title: 'E-mail envoyé avec succès!',
+            text: 'Cliquez sur OK pour revenir au menu principal.',
+            icon: 'success',
+            allowOutsideClick: false,
+            confirmButtonText: 'OK'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Redirigez l'utilisateur vers le menu principal ici
+                window.location.href = "../index.html";
+            }
+        });
         console.log(response);
         console.log('E-mail envoyé avec succès:', response);
     }, function(error) {
+        // Afficher une SweetAlert
+        Swal.fire({
+            title: 'E-mail envoyé avec succès!',
+            text: 'Cliquez sur OK pour revenir au menu principal.',
+            icon: 'success',
+            allowOutsideClick: false,
+            confirmButtonText: 'OK'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Redirigez l'utilisateur vers le menu principal ici
+                window.location.href = "../contacter/index.html";
+            }
+        });
         console.error('Erreur lors de l\'envoi de l\'e-mail:', error);
     });
 });
