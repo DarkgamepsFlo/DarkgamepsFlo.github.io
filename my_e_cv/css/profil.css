@@ -3,6 +3,7 @@ body {
     margin-bottom: 100px;
     background-color: #DDDDDD;
     font-family: 'Lilita One';
+    overflow: hidden;
 }
 
 h1 {
@@ -131,14 +132,21 @@ img[id="ma_tete"] {
 }
 
 
-
-
 /* Styles pour les écrans de petite taille (460px) et plus petits */
 @media screen and (max-width: 460px) {
+    h1 {
+        font-size: 8vw;
+    }
 
-    .button-text-footer {
-        position: relative;
-        z-index: 2; /* Placez le texte au-dessus du bouton */
-        font-size: 5vw;
+    #infoSection {
+        display: block;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    
+    #textContainer {
+        width: 100%;
+        margin: 2%;
     }
 }
