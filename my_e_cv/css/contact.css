@@ -23,7 +23,9 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 400px;
+    margin-top: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 form {
@@ -58,4 +60,39 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+
+#content {
+    max-width: 100%; /* Ajustez cette valeur selon vos besoins */
+    max-height: 200px; /* Ajustez cette valeur selon vos besoins */
+    overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+@media screen and (max-width: 460px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    label {
+        font-size: 6vw;
+    }
+
+    .container {
+        margin-top: 0%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
