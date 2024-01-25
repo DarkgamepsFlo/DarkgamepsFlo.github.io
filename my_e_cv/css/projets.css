@@ -25,7 +25,7 @@ h2 {
 #infoSection {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-bottom: 10px;
 }
 
 .boutons button {
@@ -35,6 +35,7 @@ h2 {
     margin: 5px;
     border: none;
     cursor: pointer;
+    margin-right: 10%;
 }
 
 .projet h2,
@@ -44,24 +45,36 @@ h2 {
 }
 
 .image_normal {
-    width: 200px;
-    margin-left: 15%;
-    margin-right: 5%;
+    max-width: 40%;
+    margin-left: 5%;
 }
 
 .image_normal img {
-    max-width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 .texte_normal {
-    margin-right: 15%;
+    margin: 10px;
+    margin-right: 5%;
     margin-left: 5%;
 }
 
 .texte_normal p {
+    font-size: 2vw;
     color: #555;
 }
+
+
+#flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+
 
 .image_reverse {
     width: 200px;
@@ -86,5 +99,40 @@ h2 {
 
 /* Styles pour les écrans plus petits que 460 pixels */
 @media screen and (max-width: 460px) {
+    #infoSection {
+        display: block;
+        margin-bottom: 0px;
+    }
 
+    .boutons button {
+        margin-right: 0%;
+    }
+
+    #flex-column {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 7.5vw;
+    } 
+    
+    h2 {
+        font-size: 6vw;
+    }    
+
+    .texte_normal p {
+        font-size: 4.5vw;
+        color: #555;
+    }    
+
+    .image_normal {
+        max-width: 90%;
+    }
+
+    .texte_normal {
+        margin: 0px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
 }
