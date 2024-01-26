@@ -28,6 +28,12 @@ h2 {
     margin-bottom: 10px;
 }
 
+.projet h2,
+.projet .boutons{
+    flex: 1; /* Les éléments prennent le reste de l'espace disponible */
+    text-align: center;
+}
+
 .boutons button {
     background-color: #333;
     color: #fff;
@@ -36,12 +42,10 @@ h2 {
     border: none;
     cursor: pointer;
     margin-right: 10%;
-}
-
-.projet h2,
-.projet .boutons {
-    flex: 1; /* Les éléments prennent le reste de l'espace disponible */
-    text-align: center;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 2vw;
+    font-family: 'Lilita One';
 }
 
 .image_normal {
@@ -97,8 +101,39 @@ h2 {
 
 
 
+
+/* Ensemble des boutons de la page */
+.custom-button {
+    display: inline-block;
+    position: relative;
+    padding: 4% 2%;
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 50px; /* Coins arrondis */
+    transition: background-color 0.3s ease;
+}
+
+/* Effet au survol du bouton */
+.custom-button:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
+
+/* Styles pour le texte par-dessus le bouton */
+.button-text {
+    position: relative;
+    z-index: 2; /* Placez le texte au-dessus du bouton */
+    font-size: 1vw;
+}
+
+
+
+
 /* Styles pour les écrans plus petits que 460 pixels */
 @media screen and (max-width: 460px) {
+    body{
+        padding-top: 60px;
+    }
     #infoSection {
         display: block;
         margin-bottom: 0px;
@@ -106,6 +141,8 @@ h2 {
 
     .boutons button {
         margin-right: 0%;
+        width: 30%;
+        font-size: 5vw;
     }
 
     #flex-column {
@@ -133,6 +170,13 @@ h2 {
         margin: 0px;
         margin-right: 5%;
         margin-left: 5%;
+    }
+
+    /* Styles pour le texte par-dessus le bouton */
+    .button-text {
+        position: relative;
+        z-index: 2; /* Placez le texte au-dessus du bouton */
+        font-size: 6vw;
     }
     
 }
