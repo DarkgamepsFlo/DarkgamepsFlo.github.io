@@ -29,7 +29,9 @@ h2 {
 }
 
 .projet h2,
-.projet .boutons{
+.projet .boutons,
+.projet-reverse h2,
+.projet-reverse .boutons-reverse{
     flex: 1; /* Les éléments prennent le reste de l'espace disponible */
     text-align: center;
 }
@@ -80,27 +82,63 @@ h2 {
 
 
 
-.image_reverse {
-    width: 200px;
-    margin-right: 15%;
-    margin-left: 5%;
+
+
+#infoSection-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.image_reverse img {
-    max-width: 100%;
-    height: auto;
+
+#flex-column-reverse {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .texte_reverse {
-    margin-left: 30%;
+    margin: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .texte_reverse p {
+    font-size: 2vw;
     color: #555;
+}
+
+.boutons-reverse button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10%;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 2vw;
+    font-family: 'Lilita One';
+}
+
+.image_reverse {
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.image_reverse img {
+    height: auto;
+    border-radius: 5%;
 }
 
 
 
+
+
+
+/* -- CSS pour les boutons de la page -- */
 
 /* Ensemble des boutons de la page */
 .custom-button {
@@ -126,10 +164,7 @@ h2 {
     font-size: 1vw;
 }
 
-
-
-
-/* Styles pour les écrans plus petits que 460 pixels */
+/* -- Styles pour les écrans plus petits que 460 pixels -- */
 @media screen and (max-width: 460px) {
     body{
         padding-top: 60px;
@@ -178,5 +213,39 @@ h2 {
         z-index: 2; /* Placez le texte au-dessus du bouton */
         font-size: 6vw;
     }
-    
+
+
+
+
+
+    #infoSection-reverse {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .boutons-reverse button {
+        margin-right: 0%;
+        width: 30%;
+        font-size: 5vw;
+    }
+
+    #flex-column-reverse {
+        width: 100%;
+    }
+
+    .texte_reverse p {
+        font-size: 4.5vw;
+        color: #555;
+    }    
+
+    .image_reverse {
+        max-width: 90%;
+        margin-left: 25px;
+    }
+
+    .texte_reverse {
+        margin: 0px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }

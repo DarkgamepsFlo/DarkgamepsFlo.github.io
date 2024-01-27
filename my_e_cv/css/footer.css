@@ -34,6 +34,36 @@ footer {
 
 
 
+#infoSection-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Styles pour chaque div */
+div[id="une_img_footer"] {
+    width: 8%; /* Chaque div occupe 25% de la largeur du conteneur */
+    margin: 5px;
+}
+
+div[id="une_img_footer"] a img {
+    max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la div */
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+    margin: 0 auto; /* Centrer l'image horizontalement dans la div */
+    width: 50%;
+}
+
+div[id="une_img_footer"] a {
+    height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
+    display: block; /* Empêcher les marges blanches indésirables sous l'image */
+}
+
+
+
+
 /* Styles pour les écrans de petite taille (460px) et plus petits */
 @media screen and (max-width: 460px) {
 
@@ -41,5 +71,13 @@ footer {
         position: relative;
         z-index: 2; /* Placez le texte au-dessus du bouton */
         font-size: 5vw;
+    }
+
+    div[id="une_img_footer"] a img {
+        width: 80%;
+    }
+
+    div[id="une_img_footer"]{
+        margin-right: 20px;
     }
 }
