@@ -123,7 +123,7 @@ div[id="quatre_img"] {
 @media screen and (max-width: 460px) {
 
     h1 {
-        font-size: 8vw;
+        font-size: 7.5vw;
     }
 
     /* Styles pour le texte par-dessus le bouton */
@@ -145,11 +145,5 @@ div[id="quatre_img"] {
         display: flex;
         flex-direction: column; /* Met les éléments du body l'un en dessous de l'autre */
         align-items: center; /* Centre les éléments du body */
-    }
-
-    /* Titre de la page */
-    .div_title {
-        margin-left: 5px;
-        margin-right: 5px;
     }
 }
