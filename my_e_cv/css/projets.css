@@ -4,7 +4,7 @@ body {
     font-family: 'Lilita One';
     font-size: 22px;
     background-color: #DDDDDD;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 h1 {
@@ -168,6 +168,7 @@ h2 {
 @media screen and (max-width: 460px) {
     body{
         padding-top: 60px;
+        padding-bottom: 60px;
     }
     #infoSection {
         display: block;
