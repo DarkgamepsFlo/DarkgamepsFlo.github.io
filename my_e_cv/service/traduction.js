@@ -126,6 +126,35 @@ function updateContent() {
         if (document.getElementById("projets_contactme"))
             document.getElementById("projets_contactme").innerText = "Me contacter";
 
+        // Nouveaux identifiants ajoutés
+        if(document.getElementById("experiences_h1"))
+        document.getElementById("experiences_h1").innerText = "Voici l'ensemble de mes expériences";
+    if(document.getElementById("experience_title_1"))
+        document.getElementById("experience_title_1").innerText = "Stage dans l'association OpaleBD.COM";
+    if(document.getElementById("experience_description_p1"))
+        document.getElementById("experience_description_p1").innerText = "";
+
+    if(document.getElementById("view_more_btn_experience_1"))
+        document.getElementById("view_more_btn_experience_1").innerText = "Voir plus";
+    if(document.getElementById("access_site_btn_experience_1"))
+        document.getElementById("access_site_btn_experience_1").innerText = "Accéder au site";
+
+        if(document.getElementById("contactme"))
+            document.getElementById("contactme").innerText = "Contact me";
+
+            if(document.getElementById("experiences_title1"))
+            document.getElementById("experiences_title1").innerText = "Stage dans l'association OpaleBD.COM";
+            if(document.getElementById("experiences_description_p11"))
+            document.getElementById("experiences_description_p11").innerText = "OpaleBD.COM est une association, au départ concentrée sur la bande dessinée, et maintenant orientée sur tous les genres de livres qui existent, de la fantaisie à la bande dessinée en passant par le polar et le manga. Le terme 'BD', signifiant 'Bande Dessinée', se rapproche maintenant davantage de 'Base de Données' en raison des nombreuses informations que ce site renferme. Parmi ces informations, nous retrouvons un nombre incroyable d'auteurs, de librairies, de livres mais également l'ensemble des festivals du livre en France et autres pays proches.";
+            if(document.getElementById("experiences_description_p21"))
+            document.getElementById("experiences_description_p21").innerText = "Stagiaire durant 2 mois dans cette association, ma mission était de mettre à jour le Framework du site, Codigniter (basé sur du PHP et du Twig), en le passant de la version 3 à la version 4 sur l'ensemble du site.";
+            if(document.getElementById("experiences_description_p31"))
+            document.getElementById("experiences_description_p31").innerText = "En plus de cette mission principale, j'avais plusieurs tâches différentes à effectuer, comme par exemple un nouveau système de recherche d'auteur, la mise en place de la langue Serbe ou encore la création d'un système de gestion de cookies et une politique de confidentialité. Ces nouvelles fonctionnalités ont dû me faire modifier de grandes lignes de code et m'ont formé sur ce qui était possible grâce à ce Framework.";
+
+
+
+
+
     } else {
         if(document.getElementById("welcome_menu"))
             document.getElementById("welcome_menu").innerText = "Welcome to my portfolio";
@@ -229,8 +258,29 @@ function updateContent() {
         if (document.getElementById("projets_contactme"))
             document.getElementById("projets_contactme").innerText = "Contact me";
 
-        if(document.getElementById("contactme"))
-            document.getElementById("contactme").innerText = "Contact me";
+
+
+        if(document.getElementById("experiences_h1"))
+            document.getElementById("experiences_h1").innerText = "Here are all my experiences";
+        if(document.getElementById("experience_title_1"))
+            document.getElementById("experience_title_1").innerText = "Internship at OpaleBD.COM association";
+        if(document.getElementById("experience_description_p1"))
+            document.getElementById("experience_description_p1").innerText = "";
+
+        if(document.getElementById("view_more_btn_experience_1"))
+            document.getElementById("view_more_btn_experience_1").innerText = "See more";
+        if(document.getElementById("access_site_btn_experience_1"))
+            document.getElementById("access_site_btn_experience_1").innerText = "Access the site";
+
+            if(document.getElementById("experiences_title1"))
+            document.getElementById("experiences_title1").innerText = "Internship in the OpaleBD.COM association";
+            if(document.getElementById("experiences_description_p11"))
+            document.getElementById("experiences_description_p11").innerText = "OpaleBD.COM is an association, initially focused on comics, and now focused on all genres of books that exist, from fantasy to comics, including thrillers and manga. The term 'BD', meaning 'Comic Strip', is now closer to 'Database' because of the amount of information this site contains. Among this information, we find an incredible number of authors, bookstores, books but also all the book festivals in France and other nearby countries.";
+            if(document.getElementById("experiences_description_p21"))
+            document.getElementById("experiences_description_p21").innerText = "Intern for 2 months in this association, my mission was to update the site's Framework, Codigniter (based on PHP and Twig), moving it from version 3 to version 4 across the entire site.";
+            if(document.getElementById("experiences_description_p31"))
+            document.getElementById("experiences_description_p31").innerText = "In addition to this main mission, I had several different tasks to carry out, such as a new author search system, the implementation of the Serbian language or the creation of a cookie management system and a Privacy Policy. These new features must have made me modify large lines of code and trained me on what was possible with this Framework.";
+
     }
 }
 

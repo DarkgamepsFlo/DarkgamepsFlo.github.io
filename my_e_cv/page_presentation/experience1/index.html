@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../css/header.css">
-        <link rel="stylesheet" href="../../css/footer.css">
-        <link rel="stylesheet" href="../../css/projets.css"> <!-- Ajoutez un fichier CSS spécifique pour la page projets -->
-        <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
-        <title>Projets</title>
-    </head>
-    <header>
-        <div id="img_header">
-            <div id="une_img_header">
-                <a href="https://github.com/DarkgamepsFlo">
-                    <img src="../../img/github.png" id="github" alt="Logo de Github">
-                </a>
-            </div>
-            <div id="une_img_header">
-                <a href="https://www.linkedin.com/in/florian-og%C3%A8s-a41a9a240">
-                    <img src="../../img/linkedin.png" id="linkedin" alt="Logo de linkedin">
-                </a>
-            </div>
-            <div id="une_img_header">
-                <img onclick="changeLanguage()" id="langImage" src="../img/fr_flag.png" alt="Drapeau français">
-            </div>
-        </div>
-    </header>
-    <body>
-        <!-- Contenu de la page projets -->
-        <div class="projet-container">
-            <div class="div_title">
-                <h1>Stage dans l'association OpaleBD.COM</h1>
-            </div>
-            <div class="projet">
-                <div id="infoSection">
-                    <div class="image_normal">
-                        <img src="../../img/Opalebd.png" alt="Image Projet 1">
-                    </div>
-                    <div id="flex-column">
-                        <div class="texte_normal">
-                            <p>OpaleBD.COM est une association qui, au départ est concentré sur la bande dessiné, est maintenant orienté sur tout les genres de livre qui existe, de la fantaisie à la bande dessinée en passant par du Polar et du Manga. Le terme BD designant bande dessiné se reapproche plus maintenant de base de données grâce à l'ensemble des nombreuses informations que ce site renferme, un nombre incroyable d'auteurs, de librairies, de livre mais également l'ensemble des manifestations de livre en France et autres pays.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div id="infoSection-reverse">
-                    <div class="image_reverse">
-                        <img src="../../img/OpaleBDCookie.png" alt="Image Projet 1">
-                    </div>
-                    <div id="flex-column-reverse">
-                        <div class="texte_reverse">
-                            <p>Stagiaire durant 2 mois dans cette association ma mission était de mettre à jour le Framework du site, Codigniter (basé sur du Php et du twig), en le passant de la version 3 à la version 4 sur l'ensemble du site.</p>
-                            <p>En plus de cette mission principale, j'avais plusieurs tâches différentes à mettre en place comme par exemple un nouveau système de recherche d'auteur, la mise en place de la langue Serbe ou encore la mise ne place d'un système de gestion de cookies et une politique de confidentialité. Ces nouvelles fonctionnalités ont dû me faire modifier de grande ligne de code et de me former sur ce qui était possible grâce à cette librairie.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/projets.css"> <!-- Ajoutez un fichier CSS spécifique pour la page projets -->
+    <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+    <title>Projets</title>
+</head>
 
-        <!-- Ajoute le lien vers le fichier JavaScript -->
-        <script src="../../service/traduction.js"></script>
-    </body>
-    <footer>
-        <div id="infoSection-footer">
-            <a href="../../contacter/index.html" class="custom-button-footer">
-                <span class="button-text-footer" id="contactme">Me contacter</span>
+<header>
+    <div id="img_header">
+        <div id="une_img_header">
+            <a href="https://github.com/DarkgamepsFlo">
+                <img src="../../img/github.png" id="github" alt="Logo de Github">
             </a>
-            <div id="une_img_footer">
-                <a href="../../experiences/index.html">
-                    <img src="../../img/Fleche.png" id="home" alt="Retour au menu">
-                </a>
+        </div>
+        <div id="une_img_header">
+            <a href="https://www.linkedin.com/in/florian-og%C3%A8s-a41a9a240">
+                <img src="../../img/linkedin.png" id="linkedin" alt="Logo de linkedin">
+            </a>
+        </div>
+        <div id="une_img_header">
+            <img onclick="changeLanguage()" id="langImage" src="../img/fr_flag.png" alt="Drapeau français">
+        </div>
+    </div>
+</header>
+
+<body>
+    <!-- Contenu de la page projets -->
+    <div class="projet-container">
+        <div class="div_title">
+            <h1 id="experiences_title1">Stage dans l'association OpaleBD.COM</h1>
+        </div>
+        <div class="projet">
+            <div id="infoSection">
+                <div class="image_normal">
+                    <img src="../../img/Opalebd.png" alt="Image Projet 1">
+                </div>
+                <div id="flex-column">
+                    <div class="texte_normal">
+                        <p id="experiences_description_p11">OpaleBD.COM est une association, au départ concentrée sur la bande dessinée, et maintenant orientée sur tous les genres de livres qui existent, de la fantaisie à la bande dessinée en passant par le polar et le manga. Le terme "BD", signifiant "Bande Dessinée", se rapproche maintenant davantage de "Base de Données" en raison des nombreuses informations que ce site renferme. Parmi ces informations, nous retrouvons un nombre incroyable d'auteurs, de librairies, de livres mais également l'ensemble des festivals du livre en France et autres pays proches.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="infoSection-reverse">
+                <div class="image_reverse">
+                    <img src="../../img/OpaleBDCookie.png" alt="Image Projet 1">
+                </div>
+                <div id="flex-column-reverse">
+                    <div class="texte_reverse">
+                        <p id="experiences_description_p21">Stagiaire durant 2 mois dans cette association, ma mission était de mettre à jour le Framework du site, Codigniter (basé sur du PHP et du Twig), en le passant de la version 3 à la version 4 sur l'ensemble du site.</p>
+                        <p id="experiences_description_p31">En plus de cette mission principale, j'avais plusieurs tâches différentes à effectuer, comme par exemple un nouveau système de recherche d'auteur, la mise en place de la langue Serbe ou encore la création d'un système de gestion de cookies et une politique de confidentialité. Ces nouvelles fonctionnalités ont dû me faire modifier de grandes lignes de code et m'ont formé sur ce qui était possible grâce à ce Framework.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+
+    <!-- Ajoute le lien vers le fichier JavaScript -->
+    <script src="../../service/traduction.js"></script>
+</body>
+
+<footer>
+    <div id="infoSection-footer">
+        <a href="../../contacter/index.html" class="custom-button-footer">
+            <span class="button-text-footer" id="projets_contactme">Me contacter</span>
+        </a>
+        <div id="une_img_footer">
+            <a href="../../experiences/index.html">
+                <img src="../../img/Fleche.png" id="home" alt="Retour au menu">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</html>
