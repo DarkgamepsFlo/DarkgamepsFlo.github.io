@@ -45,7 +45,7 @@ textarea {
 button {
     padding: 12px;
     font-family: 'Lilita One';
-    background-color: #7a53ef;
+    background-color: #090028;
     color: #636363;
     border: none;
     border-radius: 4px;
@@ -67,7 +67,7 @@ button:hover {
 }
 
 .container {
-    background-color: #636363;
+    background-color: #383838;
     border-radius: 8px;
     padding: 20px;
     margin-top: 3%;
