@@ -13,7 +13,7 @@ footer {
     display: inline-block;
     position: relative;
     padding: 0.5% 2%;
-    background-color: #5b29f1; /* Couleur de fond du bouton */
+    background-color: #7a53ef; /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */
     text-decoration: none;
     border-radius: 50px; /* Coins arrondis */
@@ -31,11 +31,11 @@ footer {
 /* Effet au survol du bouton */
 .custom-button-footer:hover {
     background-color: #282828; /* Nouvelle couleur de fond au survol */
-    color: #5b29f1;
+    color: #7a53ef;
 }
 
 .button-text-footer:hover {
-    color: #5b29f1;
+    color: #7a53ef;
 }
 
 
