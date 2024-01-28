@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 2.5vw;
-    color: #3500D3;
+    color: #5b29f1;
 }
 
 /* Titre de la page */
@@ -45,7 +45,7 @@ textarea {
 button {
     padding: 12px;
     font-family: 'Lilita One';
-    background-color: #3500D3;
+    background-color: #5b29f1;
     color: #636363;
     border: none;
     border-radius: 4px;
@@ -56,7 +56,7 @@ button {
 
 button:hover {
     background-color: #282828;
-    color: #3500D3;
+    color: #5b29f1;
 }
 
 

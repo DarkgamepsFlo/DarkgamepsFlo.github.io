@@ -29,7 +29,7 @@ body {
 }
 
 .custom-button span:hover {
-    color: #3500D3;
+    color: #5b29f1;
 }
 
 
@@ -60,7 +60,7 @@ div[id="une_img"] a {
     margin-top: 10px;
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
-    background-color: #3500D3;
+    background-color: #5b29f1;
 }
 
 div[id="une_img"] a span {
@@ -92,7 +92,7 @@ img[id="skills"] {
 
 h1 {
     font-size: 4vw;
-    color: #3500D3;
+    color: #5b29f1;
 }
 
 /* Styles pour le texte par-dessus le bouton */
