@@ -166,6 +166,10 @@ img[id="ma_tete"] {
         font-size: 4vw;
     }
 
+    div[id="une_img"] img {
+        width: 100%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
+    }
+
     #infoSection {
         display: block;
         justify-content: space-between;
@@ -194,6 +198,6 @@ img[id="ma_tete"] {
     }
 
     .downloadButton {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
