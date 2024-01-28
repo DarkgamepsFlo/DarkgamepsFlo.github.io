@@ -10,7 +10,7 @@ downloadButton.addEventListener("click", function () {
 // Fonction de téléchargement
 function downloadFile() {
     // Chemin vers le fichier .png
-    var filePath = "../service/Untitled.pdf"; // Remplace "ton_fichier.png" par le nom réel de ton fichier
+    var filePath = "../service/Ogès_Florian_CV.pdf"; // Remplace "ton_fichier.png" par le nom réel de ton fichier
 
     // Crée un élément de lien
     var link = document.createElement("a");
@@ -19,7 +19,7 @@ function downloadFile() {
     link.href = filePath;
 
     // Définit l'attribut download du lien avec le nom du fichier à télécharger
-    link.download = "Mon_CV.png"; // Nom que le fichier aura une fois téléchargé
+    link.download = "Ogès_Florian_CV.png"; // Nom que le fichier aura une fois téléchargé
 
     // Ajoute le lien à la page
     document.body.appendChild(link);

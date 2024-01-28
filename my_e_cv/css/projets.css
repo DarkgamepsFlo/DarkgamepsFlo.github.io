@@ -190,7 +190,7 @@ h2 {
     } 
     
     h2 {
-        font-size: 6vw;
+        font-size: 5vw;
     }    
 
     .texte_normal p {
@@ -241,7 +241,7 @@ h2 {
 
     .image_reverse {
         max-width: 90%;
-        margin-left: 25px;
+        margin-left: 5%;
     }
 
     .texte_reverse {
