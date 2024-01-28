@@ -140,7 +140,7 @@ function updateContent() {
         document.getElementById("access_site_btn_experience_1").innerText = "Accéder au site";
 
         if(document.getElementById("contactme"))
-            document.getElementById("contactme").innerText = "Contact me";
+            document.getElementById("contactme").innerText = "Me contacter";
 
             if(document.getElementById("experiences_title1"))
             document.getElementById("experiences_title1").innerText = "Stage dans l'association OpaleBD.COM";
@@ -151,7 +151,16 @@ function updateContent() {
             if(document.getElementById("experiences_description_p31"))
             document.getElementById("experiences_description_p31").innerText = "En plus de cette mission principale, j'avais plusieurs tâches différentes à effectuer, comme par exemple un nouveau système de recherche d'auteur, la mise en place de la langue Serbe ou encore la création d'un système de gestion de cookies et une politique de confidentialité. Ces nouvelles fonctionnalités ont dû me faire modifier de grandes lignes de code et m'ont formé sur ce qui était possible grâce à ce Framework.";
 
-
+            if(document.getElementById("contact_h11"))
+            document.getElementById("contact_h11").innerText = "Contact par E-mail";
+            if(document.getElementById("recipiant_trad"))
+            document.getElementById("recipiant_trad").innerText = "E-mail (Facultatif)";
+            if(document.getElementById("subject_trad"))
+            document.getElementById("subject_trad").innerText = "Sujet";
+            if(document.getElementById("content_trad"))
+            document.getElementById("content_trad").innerText = "Contenu";
+            if(document.getElementById("sendButton"))
+            document.getElementById("sendButton").innerText = "Envoyer l'E-mail";
 
 
 
@@ -281,6 +290,19 @@ function updateContent() {
             if(document.getElementById("experiences_description_p31"))
             document.getElementById("experiences_description_p31").innerText = "In addition to this main mission, I had several different tasks to carry out, such as a new author search system, the implementation of the Serbian language or the creation of a cookie management system and a Privacy Policy. These new features must have made me modify large lines of code and trained me on what was possible with this Framework.";
 
+            if(document.getElementById("contactme"))
+            document.getElementById("contactme").innerText = "Contact Me";
+
+            if(document.getElementById("contact_h11"))
+            document.getElementById("contact_h11").innerText = "Contact by Email";
+            if(document.getElementById("recipiant_trad"))
+            document.getElementById("recipiant_trad").innerText = "Email (Optional)";
+            if(document.getElementById("subject_trad"))
+            document.getElementById("subject_trad").innerText = "Subject";
+            if(document.getElementById("content_trad"))
+            document.getElementById("content_trad").innerText = "Content";
+            if(document.getElementById("sendButton"))
+            document.getElementById("sendButton").innerText = "Send Email";
     }
 }
 

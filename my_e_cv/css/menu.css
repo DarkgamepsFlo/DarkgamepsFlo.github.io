@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: 'Lilita One';
     font-size: 22px;
-    background-color: #DDDDDD;
+    background-color: #282828;
 }
 
 /* Titre de la page */
@@ -20,7 +20,7 @@ body {
     padding: 8% 6%;
     margin-top: 10%;
     margin-bottom: 10%;
-    background-color: #3498db; /* Couleur de fond du bouton */
+    background-color: #0C0032; /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */
     text-decoration: none;
     border-radius: 50px; /* Coins arrondis */
@@ -28,12 +28,16 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.custom-button span:hover {
+    color: #3500D3;
+}
 
 
 /* Effet au survol du bouton */
 .custom-button:hover {
-    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+    background-color: #0C0032; /* Nouvelle couleur de fond au survol */
 }
+
 
 div[id="color_img"] img {
     background-color: white;
@@ -56,11 +60,13 @@ div[id="une_img"] a {
     margin-top: 10px;
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
+    background-color: #3500D3;
 }
 
 div[id="une_img"] a span {
     font-weight: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
+    color: #090028;
 }
 
 img[id="ma_tete"] {
@@ -86,6 +92,7 @@ img[id="skills"] {
 
 h1 {
     font-size: 4vw;
+    color: #3500D3;
 }
 
 /* Styles pour le texte par-dessus le bouton */

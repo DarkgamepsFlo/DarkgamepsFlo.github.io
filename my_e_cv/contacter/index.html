@@ -38,19 +38,19 @@
      <!-- Conteneur principal -->
      <div class="container">
         <div class="div_title">
-            <h1>Contact par E-mail</h1>
+            <h1 id="contact_h11">Contact par E-mail</h1>
         </div>
         <!-- Votre formulaire avec un bouton -->
         <form id="emailForm">
             <!-- Vos champs de formulaire (par exemple, destinataire, sujet, contenu) -->
-            <label for="recipient">E-mail (Facultatif)</label>
-            <input type="email" id="recipient" placeholder="Entrez votre e-mail (facultatif)">
+            <label for="recipient" id="recipiant_trad">E-mail (Facultatif)</label>
+            <input type="email" id="recipient">
 
-            <label for="subject">Sujet</label>
-            <input type="text" id="subject" placeholder="Entrez le sujet" required>
+            <label for="subject" id="subject_trad">Sujet</label>
+            <input type="text" id="subject" required>
 
-            <label for="content">Contenu</label>
-            <textarea id="content" placeholder="Écrivez votre message" required></textarea>
+            <label for="content" id="content_trad">Contenu</label>
+            <textarea id="content" required></textarea>
 
             <!-- Bouton pour envoyer l'e-mail -->
             <button type="button" id="sendButton">Envoyer l'E-mail</button>

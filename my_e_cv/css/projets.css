@@ -3,16 +3,18 @@ body {
     margin: 0px;
     font-family: 'Lilita One';
     font-size: 22px;
-    background-color: #DDDDDD;
+    background-color: #282828;
     margin-bottom: 8%;
 }
 
 h1 {
     font-size: 4vw;
+    color: #3500D3;
 }
 
 h2 {
     font-size: 3.5vw;
+    color: #3500D3;
 }
 
 p{
@@ -41,8 +43,8 @@ p{
 }
 
 .boutons button {
-    background-color: #333;
-    color: #fff;
+    background-color: #3500D3;
+    color: #0C0032;
     padding: 8px 15px;
     margin: 5px;
     border: none;
@@ -72,7 +74,7 @@ p{
 
 .texte_normal p {
     font-size: 2vw;
-    color: #555;
+    color: #6c6c6c;
 }
 
 
@@ -110,12 +112,12 @@ p{
 
 .texte_reverse p {
     font-size: 2vw;
-    color: #555;
+    color: #6c6c6c;
 }
 
 .boutons-reverse button {
-    background-color: #333;
-    color: #fff;
+    background-color: #3500D3;
+    color: #0C0032;
     padding: 8px 15px;
     margin: 5px;
     border: none;
