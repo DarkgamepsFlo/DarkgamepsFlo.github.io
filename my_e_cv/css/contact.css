@@ -80,7 +80,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
 
     h1 {
         font-size: 8vw;

@@ -6,12 +6,20 @@ body {
 }
 
 h1 {
-    font-size: 22px;
     font-size: 4vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.5vw;
 }
 
 p, li {
     text-align: justify;
+    font-size: 1.2vw;
 }
 
 /* Titre de la page */
@@ -69,7 +77,7 @@ div[id="une_img"] {
 }
 
 div[id="une_img"] img {
-    width: 100%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
+    width: 60%; /* Ajuster la largeur de l'image à 100% de la largeur de la div parente */
     max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la div */
     height: auto; /* Ajuster automatiquement la hauteur en fonction de la largeur */
     display: block; /* Empêcher les marges blanches indésirables sous l'image */
@@ -104,6 +112,7 @@ img[id="ma_tete"] {
     border-radius: 10px;
     padding: 10px;
     width: 40%;
+    height: 15%;
     margin-left: 60px;
 }
 
@@ -117,35 +126,44 @@ img[id="ma_tete"] {
 
 
 
-#downloadButton {
+.downloadButton {
     color: #3498db;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Lilita One';
+    
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 560px) {
     #downloadContainer {
         background-color: #3498db;
         border-radius: 10px;
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin: 4%;
+        padding: 10px;
     }
 }
 
 
 /* Styles pour les écrans de petite taille (460px) et plus petits */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
     h1 {
         font-size: 8vw;
     }
 
+    h2 {
+        font-size: 4vw;
+    }
+
     h3 {
         font-size: 3.5vw;
+    }
+
+    p, li {
+        font-size: 2.5vw;
     }
 
     #infoSection {
@@ -173,5 +191,9 @@ img[id="ma_tete"] {
         border-radius: 10px;
         padding: 10px;
         text-align: center;
+    }
+
+    .downloadButton {
+        font-size: 2vw;
     }
 }

@@ -65,7 +65,7 @@ div[id="une_img_footer"] a {
 
 
 /* Styles pour les écrans de petite taille (460px) et plus petits */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
 
     .button-text-footer {
         position: relative;

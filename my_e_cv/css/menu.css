@@ -120,7 +120,7 @@ div[id="quatre_img"] {
 
 
 /* Styles pour les écrans de petite taille (460px) et plus petits */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
 
     h1 {
         font-size: 7.5vw;
